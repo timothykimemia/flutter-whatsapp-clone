@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:intl/intl.dart';
-import 'package:whatsapp_ui/common/utils/colors.dart';
-import 'package:whatsapp_ui/common/widgets/loader.dart';
-import 'package:whatsapp_ui/features/chat/controller/chat_controller.dart';
-import 'package:whatsapp_ui/features/chat/screens/mobile_chat_screen.dart';
-import 'package:whatsapp_ui/models/chat_contact.dart';
-import 'package:whatsapp_ui/models/group.dart';
+import 'package:whatsapp_awesome/common/utils/colors.dart';
+import 'package:whatsapp_awesome/common/widgets/loader.dart';
+import 'package:whatsapp_awesome/features/chat/controller/chat_controller.dart';
+import 'package:whatsapp_awesome/features/chat/screens/mobile_chat_screen.dart';
+import 'package:whatsapp_awesome/models/chat_contact.dart';
+import 'package:whatsapp_awesome/models/group.dart';
 
 class ContactsList extends ConsumerWidget {
   const ContactsList({Key? key}) : super(key: key);

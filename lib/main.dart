@@ -1,14 +1,14 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:whatsapp_ui/common/utils/colors.dart';
-import 'package:whatsapp_ui/common/widgets/error.dart';
-import 'package:whatsapp_ui/common/widgets/loader.dart';
-import 'package:whatsapp_ui/features/auth/controller/auth_controller.dart';
-import 'package:whatsapp_ui/features/landing/screens/landing_screen.dart';
-import 'package:whatsapp_ui/firebase_options.dart';
-import 'package:whatsapp_ui/router.dart';
-import 'package:whatsapp_ui/mobile_layout_screen.dart';
+import 'package:whatsapp_awesome/common/utils/colors.dart';
+import 'package:whatsapp_awesome/common/widgets/error.dart';
+import 'package:whatsapp_awesome/common/widgets/loader.dart';
+import 'package:whatsapp_awesome/features/auth/controller/auth_controller.dart';
+import 'package:whatsapp_awesome/features/landing/screens/landing_screen.dart';
+import 'package:whatsapp_awesome/firebase_options.dart';
+import 'package:whatsapp_awesome/router.dart';
+import 'package:whatsapp_awesome/mobile_layout_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

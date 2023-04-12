@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp_ui/common/utils/colors.dart';
+import 'package:whatsapp_awesome/common/utils/colors.dart';
 
 class CustomButton extends StatelessWidget {
   final String text;
@@ -21,7 +21,7 @@ class CustomButton extends StatelessWidget {
       ),
       onPressed: onPressed,
       style: ElevatedButton.styleFrom(
-        primary: tabColor,
+        backgroundColor: tabColor,
         minimumSize: const Size(double.infinity, 50),
       ),
     );

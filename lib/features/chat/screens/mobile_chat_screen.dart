@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:whatsapp_ui/common/utils/colors.dart';
-import 'package:whatsapp_ui/common/widgets/loader.dart';
-import 'package:whatsapp_ui/features/auth/controller/auth_controller.dart';
-import 'package:whatsapp_ui/features/call/controller/call_controller.dart';
-import 'package:whatsapp_ui/features/call/screens/call_pickup_screen.dart';
-import 'package:whatsapp_ui/features/chat/widgets/bottom_chat_field.dart';
-import 'package:whatsapp_ui/models/user_model.dart';
-import 'package:whatsapp_ui/features/chat/widgets/chat_list.dart';
+import 'package:whatsapp_awesome/common/utils/colors.dart';
+import 'package:whatsapp_awesome/common/widgets/loader.dart';
+import 'package:whatsapp_awesome/features/auth/controller/auth_controller.dart';
+import 'package:whatsapp_awesome/features/call/controller/call_controller.dart';
+import 'package:whatsapp_awesome/features/call/screens/call_pickup_screen.dart';
+import 'package:whatsapp_awesome/features/chat/widgets/bottom_chat_field.dart';
+import 'package:whatsapp_awesome/models/user_model.dart';
+import 'package:whatsapp_awesome/features/chat/widgets/chat_list.dart';
 
 class MobileChatScreen extends ConsumerWidget {
   static const String routeName = '/mobile-chat-screen';

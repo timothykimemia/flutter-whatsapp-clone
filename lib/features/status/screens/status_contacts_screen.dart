@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:whatsapp_ui/common/utils/colors.dart';
-import 'package:whatsapp_ui/common/widgets/loader.dart';
-import 'package:whatsapp_ui/features/status/controller/status_controller.dart';
-import 'package:whatsapp_ui/features/status/screens/status_screen.dart';
-import 'package:whatsapp_ui/models/status_model.dart';
+import 'package:whatsapp_awesome/common/utils/colors.dart';
+import 'package:whatsapp_awesome/common/widgets/loader.dart';
+import 'package:whatsapp_awesome/features/status/controller/status_controller.dart';
+import 'package:whatsapp_awesome/features/status/screens/status_screen.dart';
+import 'package:whatsapp_awesome/models/status_model.dart';
 
 class StatusContactsScreen extends ConsumerWidget {
   const StatusContactsScreen({Key? key}) : super(key: key);
