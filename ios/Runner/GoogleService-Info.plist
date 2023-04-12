@@ -15,7 +15,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.example.whatsappUi</string>
+	<string>com.example.whatsappAwesome</string>
 	<key>PROJECT_ID</key>
 	<string>whatsapp-backend-c4d7f</string>
 	<key>STORAGE_BUCKET</key>

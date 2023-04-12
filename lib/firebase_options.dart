@@ -64,6 +64,6 @@ class DefaultFirebaseOptions {
     projectId: 'whatsapp-backend-c4d7f',
     storageBucket: 'whatsapp-backend-c4d7f.appspot.com',
     iosClientId: '867907366273-j9hk7oisbdk70t3q3ri6n5qveuj30ohh.apps.googleusercontent.com',
-    iosBundleId: 'com.example.whatsappUi',
+    iosBundleId: 'com.example.whatsappAwesome',
   );
 }
