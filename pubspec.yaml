@@ -35,11 +35,11 @@ dependencies:
   cupertino_icons: ^1.0.5
   firebase_core: ^2.9.0
   firebase_auth: ^4.2.2
-  cloud_firestore: ^4.5.0
+  cloud_firestore: ^4.5.1
   firebase_storage: ^11.1.0
   country_picker: ^2.0.20
   flutter_riverpod: ^2.3.4
-  image_picker: ^0.8.7+2
+  image_picker: ^0.8.7+3
   flutter_contacts: ^1.1.6
   uuid: ^3.0.7
   intl: ^0.18.0
