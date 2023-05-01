@@ -17,10 +17,7 @@ import 'package:flutter/foundation.dart'
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      throw UnsupportedError(
-        'DefaultFirebaseOptions have not been configured for web - '
-        'you can reconfigure this by running the FlutterFire CLI again.',
-      );
+      return web;
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
@@ -49,21 +46,31 @@ class DefaultFirebaseOptions {
     }
   }
 
+  static const FirebaseOptions web = FirebaseOptions(
+    apiKey: 'AIzaSyBBCjE0h1eHTYh0HgioXIIkUi5xQE9KcK0',
+    appId: '1:26976369116:web:32b21c887b8ddb11337719',
+    messagingSenderId: '26976369116',
+    projectId: 'whatsappawesome-3c44e',
+    authDomain: 'whatsappawesome-3c44e.firebaseapp.com',
+    storageBucket: 'whatsappawesome-3c44e.appspot.com',
+    measurementId: 'G-XQNSPC9Z57',
+  );
+
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyB37aSzQwR_RJatCxy9F7V5hcxSvy1pWqc',
-    appId: '1:867907366273:android:03f3e5c37621ae01cf0c80',
-    messagingSenderId: '867907366273',
-    projectId: 'whatsapp-backend-c4d7f',
-    storageBucket: 'whatsapp-backend-c4d7f.appspot.com',
+    apiKey: 'AIzaSyAQcbAk7XCaigd8ARgVbE9RY6GZCclwTKg',
+    appId: '1:26976369116:android:f2bce919a37f6cba337719',
+    messagingSenderId: '26976369116',
+    projectId: 'whatsappawesome-3c44e',
+    storageBucket: 'whatsappawesome-3c44e.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBSDWRP0gJNvfu50pTKYfUqRDDEkQsQrUI',
-    appId: '1:867907366273:ios:6f8cdf10bb49ba7ecf0c80',
-    messagingSenderId: '867907366273',
-    projectId: 'whatsapp-backend-c4d7f',
-    storageBucket: 'whatsapp-backend-c4d7f.appspot.com',
-    iosClientId: '867907366273-j9hk7oisbdk70t3q3ri6n5qveuj30ohh.apps.googleusercontent.com',
+    apiKey: 'AIzaSyBMLJLHErhEtNTgeiz_gUv8r-rlDfvG4Qk',
+    appId: '1:26976369116:ios:53cfab5a4c78d705337719',
+    messagingSenderId: '26976369116',
+    projectId: 'whatsappawesome-3c44e',
+    storageBucket: 'whatsappawesome-3c44e.appspot.com',
+    iosClientId: '26976369116-6fesv131bh1rqnpccn5ser24onfgqe2u.apps.googleusercontent.com',
     iosBundleId: 'com.example.whatsappAwesome',
   );
 }
