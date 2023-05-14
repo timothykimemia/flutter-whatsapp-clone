@@ -46,3 +46,7 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 /android/app/build
+
+# APK keys
+private_key.pepk
+whatsapp_awesome.jks
